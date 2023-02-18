@@ -1,0 +1,412 @@
+@media (max-width: 1400px) {
+  .contact-us-cards-wrapper {
+    gap: 10px;
+  }
+  .workflow-details {
+    max-width: 400px;
+  }
+  .flow-chart-item:nth-child(2) img {
+    width: 350px;
+  }
+  .hero-video-player iframe {
+    width: 490px;
+  }
+}
+
+@media (max-width: 1075px) {
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .contact-us-cards-wrapper {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .flow-chart-container {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 50%;
+  }
+  .flow-chart-item:nth-child(2) {
+    padding: 108px 0;
+  }
+  .flow-chart-item:nth-child(2):before {
+    position: absolute;
+    content: "";
+    height: 96px;
+    width: 2px;
+    top: 0;
+    right: 50%;
+  }
+  .flow-chart-item:nth-child(2):after {
+    position: absolute;
+    content: "";
+    height: 96px;
+    width: 2px;
+    top: 100%;
+    transform: translateY(-100%);
+    right: 50%;
+  }
+  .hero-video-player iframe {
+    width: 350px;
+  }
+}
+
+@media (max-width: 950px) {
+  .nav-links-wrapper li:nth-child(2) {
+    display: none;
+  }
+  .nav-links-wrapper li:nth-child(3) {
+    display: none;
+  }
+  .hero-section-container {
+    flex-direction: column;
+  }
+  .hero-section-container p {
+    margin: 0 0 32px 0;
+  }
+  .hero-section-container div:nth-child(1) {
+    width: 100%;
+  }
+  .hero-video-player iframe {
+    width: 100%;
+    margin-left: 0;
+  }
+  .how-it-works-wrapper {
+    flex-direction: column;
+  }
+  .ad-btn {
+    font-size: 18px;
+  }
+  .ad-details-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 16px;
+  }
+  .features-grid {
+    column-gap: 8px;
+  }
+  .review-card img {
+    width: 72px;
+    height: 72px;
+  }
+  .review-card-details {
+    padding-left: 24px;
+  }
+  .review-card-details img {
+    width: 128px;
+    height: 24px;
+  }
+  .remaining-section-container {
+    flex-direction: column;
+    gap: 48px;
+  }
+  .workflow-review-wrapper h2 {
+    margin: 0 0 24px;
+  }
+  .benefits-card {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .benefits-card-details {
+    padding: 0;
+  }
+  .contact-us-section-container h1 {
+    font-size: 32px;
+  }
+  /* .contact-us-cards-wrapper {
+    row-gap: 48px;
+    grid-template-columns: 1fr;
+  } */
+  .testimonial-section-container h1 {
+    font-size: 24px;
+  }
+  .footer-section-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .footer-section-container > div > a {
+    font-size: 18px;
+  }
+  .flow-chart-container {
+    width: 100%;
+  }
+  .workflow-details {
+    max-width: 100%;
+  }
+  .faq-section-container > .flex {
+    justify-content: center;
+  }
+  .hero-section-container {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+  .used-by-section-container {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+  .features-section-container {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+  .remaining-section-container {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+  .how-it-works-section-container {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+  .workflow-review-wrapper {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+  .rc-1 {
+    margin-left: 64px !important;
+    margin-right: 64px !important;
+  }
+  .ad-wrapper-1 {
+    padding-left: 64px !important;
+    padding-right: 64px !important;
+  }
+  .benefits-card {
+    margin-left: 64px;
+    margin-right: 64px;
+  }
+  .contact-us-section-container {
+    margin-left: 64px;
+    margin-right: 64px;
+  }
+  .faq-section-container {
+    margin-left: 64px;
+    margin-right: 64px;
+  }
+  .testimonial-section-container {
+    margin-left: 64px;
+    margin-right: 64px;
+  }
+}
+
+@media (max-width: 775px) {
+  .faq-section-container {
+    flex-direction: column;
+  }
+  .questions-wrapper {
+    flex-direction: column;
+  }
+  .hero-section-container {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+  .used-by-section-container {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+  .features-section-container {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+  .remaining-section-container {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+  .how-it-works-section-container {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+  .workflow-review-wrapper {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+  .rc-1 {
+    margin-left: 48px !important;
+    margin-right: 48px !important;
+  }
+  .ad-wrapper-1 {
+    padding-left: 48px !important;
+    padding-right: 48px !important;
+  }
+  .benefits-card {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+  .contact-us-section-container {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+  .faq-section-container {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+  .testimonial-section-container {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+  .hamburger-btn {
+    display: block;
+  }
+  .nav-bar-wrapper {
+    padding: 0 24px;
+  }
+  .nav-links-wrapper,
+  .nav-btn-wrapper {
+    display: none;
+  }
+  .sm_screen_btn_wrapper {
+    display: block;
+  }
+  .sm_screen_btn_wrapper .secondary-btn,
+  .sm_screen_btn_wrapper .primary-btn {
+    display: block;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+}
+
+@media (max-width: 670px) {
+  .contact-us-cards-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .primary-btn,
+  .secondary-btn {
+    padding: 8px 14px;
+    font-size: 16px;
+  }
+  .footer-section-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-section-container > div ul h5 {
+    margin-top: 32px;
+  }
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+  .automated-workflow-container {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+  .card-wrapper img {
+    width: 150px;
+    height: 150px;
+  }
+  .overlay::before,
+  .overlay::after {
+    background: none !important;
+  }
+  .ad-btn-wrapper {
+    flex-direction: column;
+  }
+  .ad-details-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .hero-section-container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .used-by-section-container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .features-section-container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .remaining-section-container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .how-it-works-section-container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .workflow-review-wrapper {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .rc-1 {
+    margin-left: 24px !important;
+    margin-right: 24px !important;
+  }
+  .ad-wrapper-1 {
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+  }
+  .benefits-card {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+  .contact-us-section-container {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+  .faq-section-container {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+  .testimonial-section-container {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .automated-workflow-container {
+    margin-left: 24px;
+    margin-right: 24px;
+    padding: 32px;
+  }
+  .hero-section-container h1 {
+    font-size: 28px;
+    line-height: 1.5;
+  }
+  .hero-section-container p {
+    font-size: 16px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  .review-card {
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+  }
+  .review-card-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+  }
+  .workflow-review-wrapper h2 {
+    font-size: 16px;
+  }
+  .contact-us-section-container h1 {
+    font-size: 24px;
+  }
+  .contact-us-section-container > p {
+    font-size: 18px;
+    text-align: center;
+  }
+  .accordion__heading {
+    font-size: 14px;
+  }
+  .testimonial-section-container h1 {
+    font-size: 17px;
+  }
+  .testimonial-section-container h1 img {
+    width: 20px;
+    height: 20px;
+  }
+  .testimonial-section-container > p {
+    font-size: 14px;
+  }
+  .footer-section-bg p {
+    padding: 0;
+    justify-content: center;
+  }
+}
